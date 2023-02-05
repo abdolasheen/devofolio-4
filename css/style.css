@@ -1,0 +1,182 @@
+.heroSection {
+  background-image: url("../imgs/hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.aboutMe {
+  background-color: #f5f5f5;
+}
+.aboutMe .container {
+  background-color: white;
+}
+.aboutMe p {
+  color: #4e4e4e;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+ul {
+  list-style: none;
+}
+.skill ul li span {
+  font-weight: bold;
+}
+#headingBorder {
+  position: relative;
+}
+#headingBorder::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 25%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #0078ff;
+}
+#headingBorderMain {
+  position: relative;
+}
+#headingBorderMain::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10%;
+  height: 4px;
+  top: 6rem;
+  margin: auto;
+  background-color: #0078ff;
+  right: 0;
+  left: 0;
+}
+#headingBorderMain.sub::after {
+  margin: 0;
+  left: 0;
+  top: 3rem;
+}
+.services {
+  padding-top: 5rem;
+}
+.bgFaded {
+  background-color: #f5f5f5;
+}
+i.fa-briefcase {
+  border: 8px solid #0078ff;
+  transition: all 500ms ease;
+  padding: 2rem;
+}
+i.fa-briefcase:hover {
+  background-color: #0078ff;
+  color: white;
+  border-color: #a0cdff;
+}
+.card .card-body h3 {
+  margin: 1.5rem 0;
+}
+.counter {
+  background-image: url("../imgs/counters-bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+
+  /* background-color: rgba(0, 120, 255); */
+}
+.counterCard {
+  color: white;
+}
+.counterCard i {
+  border: 8px solid #bcc8d6;
+  border-radius: 50%;
+  padding: 1rem;
+}
+body {
+  height: 5000px;
+}
+
+.overLay {
+  background-color: rgba(0, 120, 255, 0.6);
+  padding: 6rem 0;
+}
+.cardCol i {
+  /* background-color: #0078ff; */
+  border: 2px solid #0078ff;
+}
+.protofolio {
+  background-color: #f5f5f5;
+}
+.protofolio .card {
+  cursor: pointer;
+}
+.imgContainer {
+  overflow: hidden;
+}
+.protofolio .card img {
+  transition: all 0.5s;
+}
+.protofolio .card:hover img {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.testimonials {
+  background-image: url("../imgs/counters-bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+}
+.carousel-item img {
+  width: 150px;
+  height: 150px;
+}
+button.btnCarosel[data-bs-target="#carouselTestimonials"] {
+  width: 10px;
+  height: 10px;
+}
+span.badge {
+  top: 53%;
+  right: 40%;
+  padding: 7px 0;
+  font-weight: normal;
+}
+.blog {
+  background-color: #f5f5f5;
+}
+#contact {
+  background-image: url(../imgs/overlay-bg.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#contact .greenOverLay {
+  background-color: rgba(0, 120, 255, 0.6);
+  padding: 6rem 0;
+}
+#contact .greenOverLay {
+  padding-bottom: 0;
+}
+
+textarea {
+  resize: none;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+.contact-cta i {
+  margin-left: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+footer {
+  box-shadow: 0px 0px 10px inset black;
+}
+.caroselBtn {
+  width: 20px;
+  height: 20px;
+}
+/* Unsolved issues
+1- typed Js Moving height (Hero Area)
+2-Scroll spy active class not applied to NAV BAR
+  - How to change active class properties
+3-
+*/
